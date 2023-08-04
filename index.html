@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Material Radio</title>
+    </head>
+    <body>
+        <div class="radio-input">
+            <span class="title">Difficulty Level</span>
+            <div class="form-container">
+                <div class="form-input-wrapper">
+                    <input
+                        type="radio"
+                        name="radio-1"
+                        id="radio-easy"
+                        checked
+                    />
+                    <label
+                        for="radio-easy"
+                        role="button"
+                        aria-details="Difficulty Level Easy"
+                        tabindex="0"
+                        >Easy</label
+                    >
+                </div>
+                <div class="form-input-wrapper">
+                    <input type="radio" name="radio-1" id="radio-medium" />
+                    <label
+                        for="radio-medium"
+                        role="button"
+                        aria-details="Difficulty Level Medium"
+                        tabindex="0"
+                        >Medium</label
+                    >
+                </div>
+                <div class="form-input-wrapper">
+                    <input type="radio" name="radio-1" id="radio-hard" />
+                    <label
+                        for="radio-hard"
+                        role="button"
+                        aria-details="Difficulty Level Hard"
+                        tabindex="0"
+                        >Hard</label
+                    >
+                </div>
+                <div class="slider"></div>
+            </div>
+        </div>
+        <script type="module" src="./statics/js/app.js"></script>
+    </body>
+</html>
